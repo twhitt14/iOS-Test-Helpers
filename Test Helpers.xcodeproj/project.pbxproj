@@ -15,7 +15,7 @@
 		5489ED1F2836CE640085BCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5489ED1E2836CE640085BCD0 /* Assets.xcassets */; };
 		5489ED222836CE640085BCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5489ED202836CE640085BCD0 /* LaunchScreen.storyboard */; };
 		5489ED2D2836CE640085BCD0 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ED2C2836CE640085BCD0 /* URLSessionHTTPClientTests.swift */; };
-		5489ED482836D1600085BCD0 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ED472836D1600085BCD0 /* FeedLocalizationTests.swift */; };
+		5489ED482836D1600085BCD0 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ED472836D1600085BCD0 /* LocalizationTests.swift */; };
 		5489ED4A2836D1C00085BCD0 /* MemoryLeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ED492836D1C00085BCD0 /* MemoryLeakTests.swift */; };
 		5489ED4C2836D2420085BCD0 /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489ED4B2836D2420085BCD0 /* SomeClass.swift */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,7 @@
 		5489ED232836CE640085BCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5489ED282836CE640085BCD0 /* Test HelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test HelpersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5489ED2C2836CE640085BCD0 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
-		5489ED472836D1600085BCD0 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
+		5489ED472836D1600085BCD0 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
 		5489ED492836D1C00085BCD0 /* MemoryLeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakTests.swift; sourceTree = "<group>"; };
 		5489ED4B2836D2420085BCD0 /* SomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 			children = (
 				546751672836D80700D13E89 /* UI_Example_Helpers.swift */,
 				5489ED492836D1C00085BCD0 /* MemoryLeakTests.swift */,
-				5489ED472836D1600085BCD0 /* FeedLocalizationTests.swift */,
+				5489ED472836D1600085BCD0 /* LocalizationTests.swift */,
 				5489ED2C2836CE640085BCD0 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Test HelpersTests";
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5489ED482836D1600085BCD0 /* FeedLocalizationTests.swift in Sources */,
+				5489ED482836D1600085BCD0 /* LocalizationTests.swift in Sources */,
 				5489ED2D2836CE640085BCD0 /* URLSessionHTTPClientTests.swift in Sources */,
 				546751682836D80700D13E89 /* UI_Example_Helpers.swift in Sources */,
 				5489ED4A2836D1C00085BCD0 /* MemoryLeakTests.swift in Sources */,
