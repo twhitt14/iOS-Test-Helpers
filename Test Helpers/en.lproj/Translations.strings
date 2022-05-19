@@ -1,0 +1,12 @@
+/* 
+  Translations.strings
+  Test Helpers
+
+  Created by Trevor Whittingham on 5/19/22.
+  
+*/
+
+"APP_TITLE" = "Test Helpers Demo App";
+
+// Uncomment to see the localization tests fail
+//"APP_DESCRIPTION" = "This app demonstrates some testing helper code";

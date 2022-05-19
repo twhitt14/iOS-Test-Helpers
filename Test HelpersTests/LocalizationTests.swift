@@ -13,7 +13,7 @@ final class LocalizationTests: XCTestCase {
     // Nice to have this test run before we deploy the app to the app store, so we know we're not missing any translations
 
     func test_localizedStrings_haveKeysAndValuesForAllSupportedLocalizations() {
-        let table = "LocalizationTableName"
+        let table = "Translations"
         let presentationBundle = Bundle(for: ViewController.self)
         let localizationBundles = allLocalizationBundles(in: presentationBundle)
         let localizedStringKeys = allLocalizedStringKeys(in: localizationBundles, table: table)
